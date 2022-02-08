@@ -5,6 +5,15 @@
     font-family: 'Roboto Slab', serif;
 
 }
+:root{
+    --nav-bg:rgb(228, 228, 228);
+    --black:black;
+    --white:white;
+    --descp:rgb(156, 149, 149);
+    --blue:#0000FF;
+    --hover-bg:#3c66b4;
+    --box-shadow:rgb(95, 92, 92);
+}
 body{
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     
@@ -12,7 +21,7 @@ body{
 
 .nav-bar{
     display: flex;
-    background-color: rgb(228, 228, 228);
+    background-color: var(--nav-bg);
     padding: 1rem 1rem 1rem 1rem;
     
 }
@@ -29,7 +38,7 @@ a{
     font-family: 'Roboto Slab', serif;
     padding-left:.5rem ;
     font-weight: 600;
-    color: black;
+    color: var(--black);
     cursor: pointer;
 
 }
@@ -48,12 +57,12 @@ a{
 }
 .docs{
     font-size: 1.5rem;
-    color: black;
+    color: var(--black);
     font-weight: 500;
     margin-right: 2rem;
 }
 .docs:hover{
-    border-bottom:2px solid black ;
+    border-bottom:2px solid var(--black) ;
     opacity: .6;
 }
  .links i{
@@ -68,23 +77,23 @@ a{
  }
 .description{
     font-size: 1.5rem;
-    color: rgb(156, 149, 149);
+    color: var(--descp);
     padding: .5rem 0;
 }
 .start{
-    color: #0000FF;
+    color: var(--blue);
     background-color: transparent;
     font-size: 1.3rem;
     text-transform: uppercase;
-    border: 2px solid #0000FF;
+    border: 2px solid var(--blue);
     padding: 3px 1rem 3px 1rem;
 
 }
 .start:hover{
-    color: white;
-    background-color: #3c66b4;
+    color: var(--white);
+    background-color:var(--hover-bg) ;
     transition: 1s linear;
-    box-shadow: 0 0 10px rgb(95, 92, 92);
+    box-shadow: 0 0 10px var(--box-shadow) ;
     background-position: right center; 
 
        
