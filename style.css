@@ -67,6 +67,7 @@ a{
 }
  .links i{
      font-size: 2rem;
+     color: var(--black);
  }
  .main{
      display: flex;
