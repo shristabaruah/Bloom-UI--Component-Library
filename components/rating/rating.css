@@ -1,0 +1,9 @@
+.rating-container input[type=checkbox]{
+    display: none;
+}
+.rating-icn{
+    color: var(--color-hover-light-grey);
+}
+.rating:checked + .rating-icn{
+    color: var(--yellow);
+}
