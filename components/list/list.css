@@ -1,0 +1,26 @@
+.list-group{
+    margin: 2rem 2rem 2rem 5rem;
+    max-width: 500px;
+    border: 1px solid var(--color-hover-grey);
+    
+}
+.list-item{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    font-weight: 300;
+    list-style: none;
+    padding:1rem 2rem ;
+    border: 1px solid var(--color-hover-grey);
+}
+.list-item:hover{
+    background-color: var(--color-hover-light-grey);
+}
+.list-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stacked-item{
+    box-shadow: 0px 15px 10px -15px  var(--color-hover-grey)
+}
