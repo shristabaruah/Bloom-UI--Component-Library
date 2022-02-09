@@ -1,0 +1,15 @@
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.round-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.responsive-img{
+   height: auto;
+   max-width: 100%;
+}
