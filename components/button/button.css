@@ -1,0 +1,113 @@
+.buttons-container{
+    margin: 2rem 0 2rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btn,.btn-link{
+    padding: 0.5rem 1rem ;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    color: var(--black);
+    cursor: pointer;
+    border-radius: 2px;
+    letter-spacing: .1em;
+}
+.btn:hover,
+.btn-link:hover {
+    opacity: 0.8;
+}
+.primary-solid{
+    background-color: var(--primary);
+}
+.secondary-solid{
+    background-color: var(--secondary);
+}
+.success-solid{
+    background-color: var(--success);
+}
+.danger-solid{
+    background-color: var(--danger);
+}
+.default-solid{
+    background-color: var(--default);
+}
+.primary-outline{
+    background-color: var(--white);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.primary-outline:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.secondary-outline{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--secondary);
+}
+.secondary-outline:hover{
+    background-color: var(--secondary);
+    color: var(--black);
+}
+.success-outline{
+    background-color: var(--white);
+    color: var(--success);
+    border:1px solid var(--success);
+}
+.success-outline:hover{
+    background-color: var(--success);
+    color: var(--white);
+}
+.danger-outline{
+    background-color: var(--white);
+    color: var(--danger);
+    border:1px solid var(--danger);
+}
+.danger-outline:hover{
+    background-color: var(--danger);
+    color: var(--white);
+}
+.default-outline{
+    border:1px solid var(--black);
+    background-color: var(--white);
+   
+}
+.default-outline:hover{
+    background-color: var(--default);
+    border: none;
+}
+.btn-icon {
+    background-color: var(--white);
+    cursor: pointer;
+}
+.contacts, .poweroff{
+    background-color: var(--gold);
+    border: 2px solid var(--black);
+    color: var(--black);
+    border-radius:70px ;
+    font-weight:600;
+    font-size: 1rem;
+   }  
+.btn-link{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--airForce-blue);
+    font-weight: 300;
+}   
+.float-btn{
+    color: var(--white);
+    border-radius: 50%;
+    padding: .689rem 1rem;
+    background-color: var(--green);
+    
+}
+.float-btn:hover{
+    box-shadow: 5px 5px 5px var(--color-hover-grey);
+
+}
+   
