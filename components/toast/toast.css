@@ -1,0 +1,26 @@
+.toast-container{
+    background-color: var(--airForce-blue);
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-items: center;
+    font-weight: 500;
+    color: var(--white);
+    padding: .5rem 3rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--color-hover-grey);
+}
+.toast-btn {
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    font-size: 1.3rem;
+}
+      
+.toast-msg{
+      margin-right: 7rem;
+}
+.toast{
+      margin: auto;
+      width: fit-content;
+}
