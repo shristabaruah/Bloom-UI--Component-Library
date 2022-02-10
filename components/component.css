@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto+Slab:wght@300&display=swap');
 @import url("./alert/alert.css");
 @import url("./avatar/avatar.css");
+@import url("./badge/badge.css");
+@import url("./button/button.css");
+@import url("./card/card.css");
+@import url("./image/image.css");
+@import url("./input/input.css");
+@import url("./list/list.css");
+@import url("./Modal/modal.css");
+@import url("./navigation/navigation.css");
+@import url("./rating/rating.css");
+@import url("./slider/slider.css");
+@import url("./toast/toast.css");
+
+
+
 :root{
     --main-color:#0000FF;
     --black:#000000;
@@ -18,6 +32,17 @@
     --apricot-red:#FBCEB1;
     --yellow:#FFD700;
     --accent-yellow:#FFFF00;
+    --gold:gold;
     --dark-yellow:#b48648;
+    --primary:#0076CE;
+    --secondary:#B0C4DE;
+    --success:#7CFC00;
+    --danger:#cc0000;
+    --default:#E1EBEE;
+    --color-hover-grey: #424242;
+    --color-hover-light-grey: #dbd7d7;
+    --orange:#ffa500;
+    --grey-background:#00000080
+
     
 }
