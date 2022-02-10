@@ -1,0 +1,27 @@
+.slider-container input {
+    cursor: pointer;
+}
+.slider-container{
+    max-width: 50%;
+    margin: auto;
+    background-color: var(--accent-blue);
+}
+.slider{
+    width: 100%;
+   -webkit-appearance: none;
+   height: 15px;
+   background-color: var(--blue);
+   border-radius: 20px;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 25px;
+    border-radius: 40%;
+    background: var(--airForce-blue);
+}
+.slider-value{
+    font-size:1.5rem ;
+    padding: 1rem 2rem;
+}
