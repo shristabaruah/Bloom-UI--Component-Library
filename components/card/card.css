@@ -1,0 +1,133 @@
+.main-container{
+    display: flex;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.card{
+    max-width: 15rem;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px var(--color-hover-light-grey);
+
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px var(--color-hover-grey);
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card-badge{
+    background-color: var(--orange);
+    color: var(--white);
+    position: absolute;
+    display: inline-block;
+    padding: .4rem .5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    left: 0;
+    top: 2%;
+}
+.card-img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-header , .fa{
+    font-size: 1rem;
+}
+.card-description{
+    font-size: .9rem;
+    color: var(--dark-grey);
+    padding: .2rem;
+}
+.price{
+    display: flex;
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0.5rem;
+    font-weight: 400;
+}
+.offer-price{
+    display: inline-block;
+    padding-right:  0.45rem ;
+}
+.actual-price{
+    text-decoration: line-through;
+    padding-right: 0.45;
+    color: var(--dark-grey);
+}
+.price-perc{
+    color: var(--airForce-blue);
+}
+.add-cart {
+    width: 55%;
+    margin: 8px ;
+    font-size: .7rem;
+   }
+.wishlist{
+    width: 30%;
+    padding-top: 4px;
+}
+.fa{
+    color:var(--black) ;
+    font-weight: 500;
+    
+}
+
+/* horizontal card */
+
+.card-horizontal{
+   max-width: 365px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   box-shadow: 5px 5px 5px 5px var(--color-hover-light-grey);
+}
+.card-horizontal:hover{
+    box-shadow: 5px 5px 5px 5px var(--color-hover-grey);
+
+}
+.horizontal-img{
+    width: 35%;
+    margin: 0;
+}
+.horizontal-btn .buy-now  {
+    padding: 10px;
+    width: auto;
+}   
+.horizontal-btn .wishlist{
+    padding: 10px;
+    width: auto;
+}
+
+/* card overlay */
+
+.card-overlay{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--color-card-overlay);
+    opacity: 0.5;
+}
+.card-overlay div {
+    background-color: var(--color-card-overlay-text-bg);
+    width: 100%;
+    margin: auto;
+    color: var(--grey);
+    font-size: 2rem;
+    text-align: center;
+}
