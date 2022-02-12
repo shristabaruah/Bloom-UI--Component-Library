@@ -88,6 +88,7 @@ a{
     text-transform: uppercase;
     border: 2px solid var(--blue);
     padding: 3px 1rem 3px 1rem;
+    cursor: pointer;
 
 }
 .start:hover{
@@ -102,6 +103,5 @@ a{
 .hero-img{
     height:330px;
     margin: 2rem 0;
-    opacity: .8;
     
 }
