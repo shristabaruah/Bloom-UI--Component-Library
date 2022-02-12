@@ -21,6 +21,7 @@
     --white:#ffffff;
     --ivory-white:#Fdfff5;
     --grey:rgb(243, 243, 243);
+    --dark-grey:grey;
     --green:#55DD33;
     --accent-green:#98FB98;
     --lacoste-green:#004526;
@@ -34,6 +35,7 @@
     --accent-yellow:#FFFF00;
     --gold:gold;
     --dark-yellow:#b48648;
+    --orange:#ffa500;
     --primary:#0076CE;
     --secondary:#B0C4DE;
     --success:#7CFC00;
@@ -41,8 +43,9 @@
     --default:#E1EBEE;
     --color-hover-grey: #424242;
     --color-hover-light-grey: #dbd7d7;
-    --orange:#ffa500;
-    --grey-background:#00000080
+    --grey-background:#00000080;
+    --color-card-overlay: #00000098;
+    --color-card-overlay-text-bg: #000000c5;
 
     
 }

@@ -7,7 +7,7 @@
     background-color: var(--accent-blue);
 }
 .slider{
-    width: 100%;
+   max-width: 100%;
    -webkit-appearance: none;
    height: 15px;
    background-color: var(--blue);

@@ -131,3 +131,25 @@
     font-size: 2rem;
     text-align: center;
 }
+@media screen and (max-width: 430px){
+    .card-horizontal{
+        max-width: 245px;
+    }
+    .horizontal-img{
+        width: 33%;
+    }
+    .card-header , .card-description{
+        font-size: 0.7rem;
+    }
+    .price{
+        font-size: 0.6rem;
+    }
+    .horizontal-btn .buy-now  {
+        font-size: 0.5rem;
+        padding-top: 5px;
+    }
+    .horizontal-btn .wishlist{
+        padding-top: 2px;
+    }
+    
+}

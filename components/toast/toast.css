@@ -6,7 +6,7 @@
     align-items: center;
     font-weight: 500;
     color: var(--white);
-    padding: .5rem 3rem;
+    padding: .2rem 3rem;
     border-radius: 10px;
     box-shadow: 5px 5px 5px var(--color-hover-grey);
 }
