@@ -1,7 +1,7 @@
 # Bloom UI
 <h1 align="center">
 <br />
-<a href="https://bloom-component-library.vercel.app/"><img src="./assets\BloomUI Homepage.jpg" alt="Bloom UI" width="300"></a>
+<a href="https://bloom-component-library.vercel.app/"><img src="./assets\BloomUI Homepage.jpg" alt="Bloom UI" width="600"></a>
 
 <br/>
 </h1>
