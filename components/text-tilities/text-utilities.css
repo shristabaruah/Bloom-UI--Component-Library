@@ -1,0 +1,30 @@
+.heading-container{
+    border: 1px solid var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-large{
+    font-size: 1.8rem;
+}
+.text-regular{
+    font-size: 1.3rem;
+}
+.text-medium{
+    font-size: 1rem;
+}
+.text-small{
+    font-size: 0.8rem;
+}
