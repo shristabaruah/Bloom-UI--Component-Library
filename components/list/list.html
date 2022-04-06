@@ -1,134 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../component.css">
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../reset.css">
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="list.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../component.css" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="list.css" />
     <title>List | bloom UI</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <nav class="navigation-bar">
-        <div class="logo">
-            <a href="../../index.html">
-            <img  class="logo-img" src="../../assets/logo1.svg" alt="logo">
-            <p class="logo-text">bloom</p><span class="text">UI</span>
-            </a>
-        </div>
-        <div class="hamburger-icon">
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-        </div>
+      <div class="logo">
+        <a href="../../index.html">
+          <img class="logo-img" src="../../assets/logo1.svg" alt="logo" />
+          <p class="logo-text">bloom</p>
+          <span class="text">UI</span>
+        </a>
+      </div>
+      <div class="hamburger-icon">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </div>
     </nav>
     <div class="conatiner">
-        <div class="sidebar-wrapper slide-off">
-            <div class="sidebar">
-                <div class="sidebar-header">
-                    <div class="logo">
-                        <a href="../../index.html">
-                        <img class="logo-img" src="../../assets/logo1.svg" alt="logo">
-                        <p class="logo-text">bloom</p><span class="text">UI</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="introduction">
-                    <a href="../main.html">Introduction</a>
-                </div>
-                <div class="components">Components</div>
-                <div class="sidebar-main">
-                    <a href="../alert/alert.html">Alert</a>
-                    <a href="../avatar/avatar.html">Avatar</a>
-                    <a href="../badge/badge.html">Badge</a>
-                    <a href="../button/button.html">Button</a>
-                    <a href="../card/card.html">Card</a>
-                    <a href="../image/image.html">Image</a>
-                    <a href="../input/input.html">Input</a>
-                    <a href="list.html">Lists</a>
-                    <a href="../Modal/modal.html">Modal</a>
-                    <a href="../navigation/navigation.html">Navigation</a>
-                    <a href="../rating/rating.html">Rating</a>
-                    <a href="../slider/slider.html">Slider</a>
-                    <a href="../toast/toast.html">Toast</a>
-                    
-                </div>
+      <div class="sidebar-wrapper slide-off">
+        <div class="sidebar">
+          <div class="sidebar-header">
+            <div class="logo">
+              <a href="../../index.html">
+                <img class="logo-img" src="../../assets/logo1.svg" alt="logo" />
+                <p class="logo-text">bloom</p>
+                <span class="text">UI</span>
+              </a>
             </div>
+          </div>
+          <div class="introduction">
+            <a href="../main.html">Introduction</a>
+          </div>
+          <div class="components">Components</div>
+          <div class="sidebar-main">
+            <a href="../alert/alert.html">Alert</a>
+            <a href="../avatar/avatar.html">Avatar</a>
+            <a href="../badge/badge.html">Badge</a>
+            <a href="../button/button.html">Button</a>
+            <a href="../card/card.html">Card</a>
+            <a href="../image/image.html">Image</a>
+            <a href="../input/input.html">Input</a>
+            <a href="list.html">Lists</a>
+            <a href="../Modal/modal.html">Modal</a>
+            <a href="../navigation/navigation.html">Navigation</a>
+            <a href="../rating/rating.html">Rating</a>
+            <a href="../slider/slider.html">Slider</a>
+            <a href="../toast/toast.html">Toast</a>
+            <a href="../text-tilities/text-utilities.html">Text Utilities</a>
+            <a href="../grid/grid.html">Grid</a>
+          </div>
         </div>
-        <div class="section">
-            <div class="section-header">
-                
-                <h1>List</h1>
-                <p>Lists are used to indent points inside another line.</p>
-                
-            </div>
-            <div class="section-main">
-                <div class="section-main-text">
-                    <h2>Spaced List</h2>
-
-                <ul class="list-group">
-                    <li class="list-item">This is First item</li>
-                    <li class="list-item">This is Second item</li>
-                    <li class="list-item">This is Third item</li>
-                    <li class="list-item">This is Fourth item</li>
-                    <li class="list-item">This is Fifth item</li>
-                </ul>
-                <div class="iframe-img">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=htmlmixed&width=767&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520First%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Second%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Third%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Fourth%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Fifth%2520item%253C%252Fli%253E%250A%253C%252Ful%253E"
-                        style="width: 100%; height: 360px; border:0; transform: scale(1); overflow:hidden;margin:2rem 0;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <h1>List</h1>
+          <p>Lists are used to indent points inside another line.</p>
         </div>
-             
-            <div class="section-main">
-                <div class="section-main-text">
-                    <h2>Stacked List</h2>
-                </div>
-                <ul class="list-group">
-                    <li class="list-item stacked-item">
-                        <div class="list-heading">
-                            <h3>Newest notification</h3>
-                            <p>This is a description of the notification content</p>
-                        </div>
-                    </li>
-                    <li class="list-item stacked-item">
-                        <div class="list-heading">
-                            <h3>Second notification</h3>
-                            <p>This is a description of the notification content</p>
-                        </div>
-                    </li>
-                    <li class="list-item stacked-item">
-                        <div class="list-heading">
-                            <p>There are 2 more unread notifications.Open the norification drawer to see them</p>
-                        </div>
-                    </li>
-                </ul>
-           
-            
-                    <div class="ifeame-img">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=htmlmixed&width=969&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2520stacked-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ENewest%2520notification%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520description%2520of%2520the%2520notification%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520stacked-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ESecond%2520notification%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520description%2520of%2520the%2520notification%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520stacked-item%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThere%2520are%25202%2520more%2520unread%2520notifications.Open%2520the%2520norification%2520drawer%2520to%2520see%2520them%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
-                            style="width: 100%; height: 460px; border:0; transform: scale(1); overflow:hidden;margin:2rem 0;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-     
-                    </div>
-                </div>    
+        <div class="section-main">
+          <div class="section-main-text">
+            <h2>Spaced List</h2>
+
+            <ul class="list-group">
+              <li class="list-item">This is First item</li>
+              <li class="list-item">This is Second item</li>
+              <li class="list-item">This is Third item</li>
+              <li class="list-item">This is Fourth item</li>
+              <li class="list-item">This is Fifth item</li>
+            </ul>
+            <div class="iframe-img">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=htmlmixed&width=767&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520First%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Second%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Third%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Fourth%2520item%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520Fifth%2520item%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="
+                  width: 100%;
+                  height: 360px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                  margin: 2rem 0;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
-
-            <footer class="send-prev-next">
-                <div class="prev"><a href="../input/input.html"><i class="fa fa-angle-left" ></i> <i class="fa fa-angle-left" ></i> Input</a></div>
-                <div class="next"><a href="../Modal/modal.html">Modal <i class="fa fa-angle-right" ></i> <i class="fa fa-angle-right" ></i></a></div>
-            </footer>
-
+          </div>
         </div>
-        
-        <script src="../main.js"></script>
-</body>
+
+        <div class="section-main">
+          <div class="section-main-text">
+            <h2>Stacked List</h2>
+          </div>
+          <ul class="list-group">
+            <li class="list-item stacked-item">
+              <div class="list-heading">
+                <h3>Newest notification</h3>
+                <p>This is a description of the notification content</p>
+              </div>
+            </li>
+            <li class="list-item stacked-item">
+              <div class="list-heading">
+                <h3>Second notification</h3>
+                <p>This is a description of the notification content</p>
+              </div>
+            </li>
+            <li class="list-item stacked-item">
+              <div class="list-heading">
+                <p>
+                  There are 2 more unread notifications.Open the norification
+                  drawer to see them
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="ifeame-img">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=htmlmixed&width=969&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%250A%2509%253Cli%2520class%253D%2522list-item%2520stacked-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ENewest%2520notification%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520description%2520of%2520the%2520notification%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520stacked-item%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ESecond%2520notification%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThis%2520is%2520a%2520description%2520of%2520the%2520notification%2520content%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520stacked-item%2522%253E%250A%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EThere%2520are%25202%2520more%2520unread%2520notifications.Open%2520the%2520norification%2520drawer%2520to%2520see%2520them%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+              style="
+                width: 100%;
+                height: 460px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+                margin: 2rem 0;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <footer class="send-prev-next">
+        <div class="prev">
+          <a href="../input/input.html"
+            ><i class="fa fa-angle-left"></i>
+            <i class="fa fa-angle-left"></i> Input</a
+          >
+        </div>
+        <div class="next">
+          <a href="../Modal/modal.html"
+            >Modal <i class="fa fa-angle-right"></i>
+            <i class="fa fa-angle-right"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../main.js"></script>
+  </body>
 </html>
