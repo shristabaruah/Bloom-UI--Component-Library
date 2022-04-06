@@ -1,97 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../component.css">
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../reset.css">
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="toast.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../component.css" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="toast.css" />
     <title>Toast | bloom UI</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <nav class="navigation-bar">
-        <div class="logo">
-            <a href="../../index.html">
-            <img  class="logo-img" src="../../assets/logo1.svg" alt="logo">
-            <p class="logo-text">bloom</p><span class="text">UI</span>
-            </a>
-        </div>
-        <div class="hamburger-icon">
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-        </div>
+      <div class="logo">
+        <a href="../../index.html">
+          <img class="logo-img" src="../../assets/logo1.svg" alt="logo" />
+          <p class="logo-text">bloom</p>
+          <span class="text">UI</span>
+        </a>
+      </div>
+      <div class="hamburger-icon">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </div>
     </nav>
     <div class="conatiner">
-        <div class="sidebar-wrapper slide-off">
-            <div class="sidebar">
-                <div class="sidebar-header">
-                    <div class="logo">
-                        <a href="../../index.html">
-                        <img class="logo-img" src="../../assets/logo1.svg" alt="logo">
-                        <p class="logo-text">bloom</p><span class="text">UI</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="introduction">
-                    <a href="../main.html">Introduction</a>
-                </div>
-                <div class="components">Components</div>
-                <div class="sidebar-main">
-                    <a href="../alert/alert.html">Alert</a>
-                    <a href="../avatar/avatar.html">Avatar</a>
-                    <a href="../badge/badge.html">Badge</a>
-                    <a href="../button/button.html">Button</a>
-                    <a href="../card/card.html">Card</a>
-                    <a href="../image/image.html">Image</a>
-                    <a href="../input/input.html">Input</a>
-                    <a href="../list/list.html">Lists</a>
-                    <a href="../Modal/modal.html">Modal</a>
-                    <a href="../navigation/navigation.html">Navigation</a>
-                    <a href="../rating/rating.html">Rating</a>
-                    <a href="../slider/slider.html">Slider</a>
-                    <a href="toast/toast.html">Toast</a>
-                    
-                </div>
+      <div class="sidebar-wrapper slide-off">
+        <div class="sidebar">
+          <div class="sidebar-header">
+            <div class="logo">
+              <a href="../../index.html">
+                <img class="logo-img" src="../../assets/logo1.svg" alt="logo" />
+                <p class="logo-text">bloom</p>
+                <span class="text">UI</span>
+              </a>
             </div>
+          </div>
+          <div class="introduction">
+            <a href="../main.html">Introduction</a>
+          </div>
+          <div class="components">Components</div>
+          <div class="sidebar-main">
+            <a href="../alert/alert.html">Alert</a>
+            <a href="../avatar/avatar.html">Avatar</a>
+            <a href="../badge/badge.html">Badge</a>
+            <a href="../button/button.html">Button</a>
+            <a href="../card/card.html">Card</a>
+            <a href="../image/image.html">Image</a>
+            <a href="../input/input.html">Input</a>
+            <a href="../list/list.html">Lists</a>
+            <a href="../Modal/modal.html">Modal</a>
+            <a href="../navigation/navigation.html">Navigation</a>
+            <a href="../rating/rating.html">Rating</a>
+            <a href="../slider/slider.html">Slider</a>
+            <a href="toast/toast.html">Toast</a>
+            <a href="../text-tilities/text-utilities.html">Text Utilities</a>
+            <a href="../grid/grid.html">Grid</a>
+          </div>
         </div>
-        <div class="section">
-            <div class="section-header">
-                
-                <h1>Toast</h1>
-                <p>Toast is a small message  that shows up and disappears on its own after few seconds. It is a simple feedback about an operation in which current activity remains visible and interactive </p>
-                
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <h1>Toast</h1>
+          <p>
+            Toast is a small message that shows up and disappears on its own
+            after few seconds. It is a simple feedback about an operation in
+            which current activity remains visible and interactive
+          </p>
+        </div>
+        <div class="section-main">
+          <div class="section-main-text">
+            <h3>Toast with success message</h3>
+          </div>
+
+          <div class="toast">
+            <div class="toast-container">
+              <span class="toast-msg">Added to cart</span>
+              <button class="toast-btn">&times;</button>
             </div>
-            <div class="section-main">
-                <div class="section-main-text">
-                    <h3>  Toast with success message </h3>
-                </div>
+          </div>
+          <div class="iframe-img">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522toast-msg%2522%253EAdded%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-btn%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 460px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+                margin: 2rem 0;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
 
-                <div class="toast">
-                    <div class="toast-container">
-                        <span class="toast-msg">Added to cart</span>
-                        <button class="toast-btn">&times;</button>
-                    </div> 
-                </div>
-                <div class="iframe-img">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=htmlmixed&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14.5px&lh=124%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522toast-msg%2522%253EAdded%2520to%2520cart%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-btn%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                        style="width: 100%; height: 460px; border:0; transform: scale(1); overflow:hidden;margin:2rem 0;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-              </div>  
-             </div> 
-             
-             <footer class="send-prev-next">
-                <div class="prev"><a href="../slider/slider.html"><i class="fa fa-angle-left" ></i> <i class="fa fa-angle-left" ></i> Slider</a></div>
-                
-            </footer>
-
-            </div> 
-    <script src="../main.js"></script>        
-</body>
+      <footer class="send-prev-next">
+        <div class="prev">
+          <a href="../slider/slider.html"
+            ><i class="fa fa-angle-left"></i>
+            <i class="fa fa-angle-left"></i> Slider</a
+          >
+        </div>
+      </footer>
+    </div>
+    <script src="../main.js"></script>
+  </body>
 </html>
