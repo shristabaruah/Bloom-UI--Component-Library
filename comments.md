@@ -1,0 +1,1 @@
+I have  done p1  components grid and text utilities  in temp-dev and the rest components are done in the first submission.
